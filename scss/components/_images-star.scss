@@ -1,0 +1,56 @@
+.images-star {
+    
+    &__large {
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 6px;
+        left: 283px;
+        animation-name: scale;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        content: "";
+
+        @media screen and (min-width: $bp-desktop){
+            width: 64px;
+            height: 64px;
+            top: 336px;
+            left: 117px;
+        }
+    }
+    &__medium {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop){
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 0px;
+            left: 471px;
+            animation: spin 2s infinite linear;
+            content: "";
+        }
+    }
+
+    &__small {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop){
+            display: block;
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            top: 270px;
+            left: 472px;
+            animation: spin 3s infinite linear;
+            content: "";
+
+        }
+
+    }
+
+}
+

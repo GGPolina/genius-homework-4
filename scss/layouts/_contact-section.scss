@@ -1,0 +1,60 @@
+.contact-section {
+    padding-bottom: 94px;
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+
+        @media screen and (min-width: $bp-tablet){
+            flex-direction: row;
+            gap: 32px;
+        }
+    }
+
+    &__map {
+        flex-shrink: 0;
+        margin: 0 -24px;
+        height: 232px;
+        border: none;
+
+        @media screen and (min-width: $bp-tablet){
+            margin: auto;
+            width: 360px;
+            height: 495px;
+            border-radius: 32px;
+        }
+
+        @media screen and (min-width: $bp-desktop){
+            width: 605px;
+            height: 495px;
+        }
+
+    }
+
+    &__form-field {
+        margin-bottom: 16px;
+       
+    }
+    
+    &__button {
+        display: block;
+        width: 100%;
+        max-width: 295px;
+        height: 53px;
+        margin: 0 auto 8px;
+        transition: 0.2s;
+
+        &__button:hover {
+            border: 2px solid var(--color-brend-light);
+            background-color: var(--color-brend-light);
+        }
+    }
+ 
+    &__title {
+        margin-bottom: 48px;
+    }
+
+        
+}

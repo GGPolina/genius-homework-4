@@ -1,0 +1,86 @@
+.reincarnation-section {
+    position: relative;
+    padding-top: 28px;
+
+    @media screen and (min-width: $bp-desktop){
+        padding-top: 83.24px;
+        padding-bottom: 176px;
+    }
+
+    &__container {
+        display: block;
+        
+        @media screen and (min-width: $bp-desktop){
+            display: flex;
+            gap: 40px;
+        }
+
+    }
+
+    &__content {
+        position: relative;
+        width: 100%;
+        
+
+        @media screen and (min-width: $bp-tablet){
+            position: relative;
+            max-width: 709px;
+        }
+    }
+
+    &__title {
+        color: var(--color-brend-dark);
+        margin-bottom: 24px;
+        width: 264px;
+        
+        @media screen and (min-width: $bp-tablet){
+            margin-bottom: 40px;
+            width: 529px;
+        }
+    }
+
+    &__text {
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 1.5;
+
+        @media screen and (min-width: $bp-tablet){
+            margin-bottom: 40px;
+            font-size: 22px;
+            line-height: 1.73;
+        }
+
+
+    }
+
+    &__images {
+        position: relative;
+    }
+
+    &__images-after {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: block;
+            // position: absolute;
+            width: 327px;
+            height: 327px;
+            top: 0;
+        }
+    }
+
+    &__images-before {
+        
+        display: none;
+        
+        @media screen and (min-width: $bp-desktop) {
+            display: block;
+            position: absolute;
+            width: 327px;
+            height: 327px;
+            top: 367px;
+            left: 164px;
+        }
+    }
+}
+

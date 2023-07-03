@@ -1,0 +1,37 @@
+.advantage-section {
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 20px;
+
+    @media screen and (min-width: $bp-desktop){
+        padding-top: 88px;
+        padding-bottom: 55px;
+    }
+   
+    &__title {
+        margin-bottom: 24px;
+
+        @media screen and (min-width: $bp-tablet){
+            margin-bottom: 48px;
+        }
+    
+    }
+    
+    &__list {
+        
+        @media screen and (min-width: $bp-tablet){
+            display: flex;
+            gap: 56px;
+        }
+    }
+    
+    &__item {
+        display: flex;
+        gap: 6px;
+        @media screen and (min-width: $bp-tablet){
+            flex-basis: calc((100% - 112px) / 3);
+        }
+    }
+}
+
+

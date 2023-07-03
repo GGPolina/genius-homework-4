@@ -1,0 +1,32 @@
+@import "./utils/fonts";
+@import "./utils/variables";
+@import "./base";
+@import "./utils/utils";
+@import "./utils/keyframes";
+@import "./utils/texts";
+
+@import "./components/address.scss";
+@import "./components/adventege-card";
+@import "./components/buttons";
+@import "./components/carrousel-button";
+@import "./components/input";
+@import "./components/form-terms";
+@import "./components/links";
+@import "./components/images-star";
+@import "./components/pagination__button";
+@import "./components/procedures-card";
+
+@import "./layouts/advantage-section";
+@import "./layouts/contact-section";
+@import "./layouts/container";
+@import "./layouts/footer";
+@import "./layouts/forms";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+@import "./layouts/mobile-menu";
+@import "./layouts/modal";
+@import "./layouts/procedures-section";
+@import "./layouts/reincarnation-section";
+@import "./layouts/section";
+
+

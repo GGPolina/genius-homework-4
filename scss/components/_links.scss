@@ -1,0 +1,15 @@
+.link {
+    color: var(--color-brend-dark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: var(--color-brend-light);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+}

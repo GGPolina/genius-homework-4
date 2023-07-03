@@ -1,0 +1,81 @@
+.footer {
+    position: relative;
+    padding: 32px 0;
+    background-image: url(/genius-homework-4/images/background-footer.png);
+    background-color: var(--color-brend-dark);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    @media screen and (min-width: $bp-desktop){
+        display: flex;
+        padding: 56px 0;
+        text-align: start;
+    }
+
+    
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @media screen and (min-width: $bp-desktop){
+            flex-direction: row;
+        }
+    }
+
+    &__nav {
+        
+        @media screen and (min-width: $bp-desktop) {
+            display: flex;
+            flex-basis: 50%;
+            gap: 20px;
+        }
+    }
+
+    &__logo {
+        margin-bottom: 24px;
+        flex-grow: 1;
+    }
+    
+    
+    &__menu {
+        flex-grow: 1;
+    }
+
+
+    &__link {
+
+        margin-bottom: 16px;
+        color: var(--color-brend-basic);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-decoration: none;
+        transition: 0.2s;
+
+        @media screen and (min-width: $bp-desktop){
+            display: flex;
+
+        }
+
+        &:hover {
+            color: var(--color-brend-light);
+        }
+    }
+
+    &::after {
+                
+        @media screen and (min-width: $bp-tablet){
+            position: absolute;
+            width: 247px;
+            height: 152px;
+            bottom: 0;
+            right: 0;
+            background-image: no-repeat;
+            background-image: url(/genius-homework-4/images/photo-preparation.png);
+            content: "";
+        }
+    }
+}
